@@ -1,0 +1,11 @@
+* L10_P15_PoC_LL.sp
+
+c1 c a 10m ic=10m
+l1 a b 1m ic=0
+r1 b c 20
+
+.control
+tran 10u 1 uic
+plot v(b,c)
+.endc
+.end
